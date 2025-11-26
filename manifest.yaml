@@ -62,11 +62,6 @@ spec:
     spec:
       nodeSelector:
         kubevirt.io/schedulable: "true"
-      #########
-      tolerations:
-        - key: "pelo.tech/kvm"
-          value: "true"
-      #########
       domain:
         devices:
           disks:
